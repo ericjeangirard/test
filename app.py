@@ -21,7 +21,7 @@ def get_user(user_id):
 if __name__ == '__main__':
     print("Serveur démarré sur http://localhost:5000")
     print("Testez: http://localhost:5000/api/data")
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=80))
 
 # Installation requise :
 # pip install flask
